@@ -10,13 +10,7 @@ share: true
 
 I have compiled a list of mandatory documents by looking through the ISO/IEC 27001:2005 standard and by pulling together online resources I am currently relying on for my own work towards ISO 27001 accreditation in my current role at CatN.
 
-
-
-
 ## The Documents
-
-
-
 <table border="0" ><tr >TitleDescription</tr><tr >
 <td >ISMS Scope
 </td>
@@ -75,30 +69,10 @@ I have compiled a list of mandatory documents by looking through the ISO/IEC 270
 <td >There should be documented procedures and plans for carrying out audits of the ISMS and all relevant documentation on a regular basis. The results of the audits should be stored so that external auditing requirements are more easily met and so that managers can review the reports when required.
 </td></tr></table>  
 
-
-
 ## The Check List
-
-
-
-
-
 I created a public Google Doc spreadsheet for the check list. Copy and paste it into your own doc if you want and if you any ideas about how I could improve it then let me know. The spreadsheet link is below.
-
-
-
-
 
 [Mandatory ISO27001 Document Check List](https://docs.google.com/spreadsheet/ccc?key=0ArwzjAXHegz7dDdoU1lGdXVJZzhvQjBjVlp0dDY1RUE)
 
-
-
-
-
 ## Reference
-
-
-
-
-
 As a final note, if you’re looking into ISO27001 accreditation to aid with BIL* accreditation for Central Government work, this is an excellent blog describing the process and requirements: [CESG IL2/IL3 Accreditation](http://interweave-consulting.blogspot.co.uk/2010/10/cesg-il2il3-accreditation-224-334.html).
