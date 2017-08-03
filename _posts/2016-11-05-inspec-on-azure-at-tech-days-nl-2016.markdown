@@ -3,7 +3,7 @@ author: joe@grdnr.io
 comments: true
 date: 2016-11-05 17:01:10+00:00
 layout: post
-link: http://grdnr.io/inspec-on-azure-at-tech-days-nl-2016/
+link: /inspec-on-azure-at-tech-days-nl-2016/
 slug: inspec-on-azure-at-tech-days-nl-2016
 title: InSpec on Azure at Tech Days NL 2016
 wordpress_id: 95
