@@ -1,131 +1,53 @@
 ---
 title: About
 permalink: /about/
+author: joe@grdnr.io
+comments: true
 ---
 
-You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
-
-## Features
-
-- Disqus comment system
-- Google analytics
-- Pagination support
-- Custom tags
-- SEO support
+With a background in web hosting I am a technical product manager; I consider myself a techie first and product person second. I live with my family in Aldershot in the UK and am currently working as Head of Product at [CatN, a cloud hosting company](http://catn.com). CatN is part of Fubra limited, a company who build consumer websites.
 
 
-## Installation
-
-#### Method 1: new master's repository (The Best)
-
-1. First [fork](https://github.com/AWEEKJ/Kiko-plus/fork) it.
-2. Change your forked repository name _Kiko-plus_ to __USERNAME.github.io__ where __USERNAME__ is your github username.
-3. Access your new blog via [https://username.github.io](https://username.github.io).
-4. [See configuration](#configuration).
-
-#### Method 2: gh-pages in existing repository
-
-1. Create a new branch called _gh-pages_ in the repository where you want to add a template [managing branches](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
-2. From command line run `git clone https://github.com/AWEEKJ/Kiko-plus.git` - this will clone _Kiko-plus_ template to your computer.
-3. Create new branch `git checkout -b gh-pages` where _gh-pages_ will be your branch name.
-4. Add remote, which is your repo from the first step, to your new branch `git remote add gh-pages https://github.com/<yourName>/<yourMaster>/gh-pages`. _yourName_ is your account name and _yourMaster_ is your repository.
-5. Push new branch to remote `git push gh-pages`.
-6. Update `_config.yml` file by changing `baseurl: "<branchName>"` _branchName_ is your branch name where _gh-pages_ resides. See [configuration](#configuration).
-
-#### Method 3: Run it locally
-
-1. Download [zip](https://github.com/AWEEKJ/Kiko-plus/archive/master.zip) or clone it `git clone https://github.com/AWEEKJ/Kiko-plus`.
-2. Go inside folder and run `jekyll serve` or `rake preview`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
 
 
-## Configuration
+I spend a lot of my time working to deliver services to Central Government via frameworks such as G-Cloud (1 – 4), and the Digital Services Framework. I have also pitched money saving ideas to government and commented on government IT changes. Here are some press mentions.
 
-All configuration is done via `_config.yml` file which you will find in your main repo folder. Change this `<something>` to yours.
 
-### Basic
 
-- Config your blog name.
 
-```yml
-name: <blog-name>
-```
 
-- These configuration in `author:` is for links to icons in footer. If you want to add more link icons, modify `_includes/footer.html` file.
 
-```yml
-author:
-  facebook:         your-id
-  twitter:          your-id
-  github:           your-id
-  linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
-```
 
-- Change copyright year and name in footer.
+  * [How achievable is the government’s move to the cloud?](http://www.computerweekly.com/news/2240110226/How-achievable-is-the-governments-move-to-the-cloud)
 
-```yml
-copyright:
-  year:             2017
-  name:             Kiko
-```
 
-### Google analytics
+  * [CloudStore 2 launched ahead of supplier accreditation](http://www.computerweekly.com/news/2240150532/CloudStore-2-launched-ahead-of-supplier-accreditation)
 
-- Change this to your Google Analytic ID.
 
-```yml
-google-analytics:
-  id:               "your-id"
-```
 
-### Disqus
+  * [CatN cost savings left civil servants sceptical](http://www.telegraph.co.uk/finance/yourbusiness/8638809/CatN-cost-savings-left-civil-servants-sceptical.html)
 
-- Change this to your Disqus short name.
 
-```yml
-disqus:
-  id:               "your-id"
-```
 
-### URL
+  * [Innovative small firms ignored by Whitehall](http://www.telegraph.co.uk/finance/yourbusiness/8134823/Innovative-small-firms-ignored-by-Whitehall.html)
 
-- Config your domain.
 
-```yml
-url: "https://<your-name>.github.io"
-```
+  * [How will the CloudStore impact government IT?](http://www.computerweekly.com/news/2240118009/How-will-the-CloudStore-impact-the-government-IT-market)
 
-- **NOTE** When if running locally, change url to 
 
-```yml
-url: "https://localhost:4000"
-```
 
-- Change this to your branch name where _gh-pages_ resides. 
-- **NOTE** apply only if you used __Method 2__ for installation.
 
-```yml
-baseurl: "/<branch-name>"
-```
 
-## Rakefile Usage
+* * *
 
-```bash
-# Create new post
-$ rake post title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"] 
 
-# Create new draft post
-$ rake draft title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"]
 
-# Install Jekyll Plugins. Do before running in local.
-$ rake geminstall
 
-# Run in Local
-$ rake preview
-```
 
-## License
+I am currently working with two business partners on our first start-up called Brewly. It is an online service that provides subscription home brew kits. We have simplified the traditionally complicated process of brewing your own beer and made it easily accessible for beginners. With a choice of three different beers each month it also provides lots of variety!
 
-This theme is released under MIT License.
+
+
+
+
+You can check out Brewly at [www.brewly.co.uk](http://brewly.co.uk).
