@@ -1,16 +1,13 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-22 19:42:06+00:00
 layout: post
-link: http://grdnr.io/inspec-and-chef-compliance-as-code/
-slug: inspec-and-chef-compliance-as-code
 title: InSpec and Chef - compliance as code
-wordpress_id: 74
-categories:
-- Chef
-- InSpec
+description: InSpec and Chef examples from the Chef Community Summit 2016 talk
+date: 2016-10-22
+tage: [chef, inspec, community]
+comments: true
+share: true
 ---
+
 
 InSpec is an opensource language that can be used to assess the state of systems. It can form integration tests, but more importantly, with additional meta information, can create so called compliance profiles. These represent either business requirements or industry standards such as ISO 27001 and CIS.
 
@@ -18,33 +15,19 @@ On the 12th October I presented with [Christoph Hartmann](https://de.linkedin.co
 
 Here are the resources from our talk!
 
-
-
-[embeddoc url="http://grdnr.io/wp-content/uploads/2016/10/Summit-Inspec-1.pptx" width="80%" height="80%" download="none" viewer="microsoft"]
-
-
-  
-
-
+<iframe src="https://docs.google.com/presentation/d/1ygMFoY2vgKIPqOUQRMRhtL7ZxO2m3485yaXsSR9pRcc/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="360" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## Resources
-
 
 **Simple web cookbook** - [https://github.com/grdnrio/inspec-summit](https://github.com/grdnrio/inspec-summit)
 Here you will see a .kitchen.yml file that contains the runlist for os and ssh hardening taken from the metadat.rb dependencies that we used in our demo. You'll also find the website style attributes in the default location.
 
 **OS and SSH baseline InSpec profiles:**
 Use the following profiles to assess state.
-
-
-
 	
   * OS profile - [https://github.com/dev-sec/tests-os-hardening](https://github.com/dev-sec/tests-os-hardening)
-
 	
   * SSH profile - [https://github.com/dev-sec/tests-ssh-hardening](https://github.com/dev-sec/tests-ssh-hardening)
-
-
 
 **Example corporate profile**
 This repo shows how you can build a single profile to address all of your compliance scanning needs with InSpec. This example, used in the presentation, shows how you can include upstream profiles, skip controls, and also include your own InSpec tests. It also demonstrates platform awareness, showing how a prpfile can be platform agnostic and therefore applied holistically. 
@@ -52,15 +35,9 @@ This repo shows how you can build a single profile to address all of your compli
 [https://github.com/chris-rock/acme-inspec-profile](https://github.com/chris-rock/acme-inspec-profile)
 
 **OS and SSH hardening cookbooks:**
-
-
-
 	
   * OS hardening - [https://github.com/dev-sec/chef-os-hardening](https://github.com/dev-sec/chef-os-hardening)
-
 	
   * SSH hardening - [https://github.com/dev-sec/chef-ssh-hardening](https://github.com/dev-sec/chef-ssh-hardening)
-
-
 
 Finally the best place to check for everything InSpec is the brand new website - [inspec.io](http://inspec.io)
