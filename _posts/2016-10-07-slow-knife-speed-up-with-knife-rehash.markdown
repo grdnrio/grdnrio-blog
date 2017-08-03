@@ -45,7 +45,7 @@ Using `knife rehash` we can create a cache of the local knife sub commands on di
 
 After creating the cache the `knife node list` command performance is greatly improved.
    
-    ```powershell
+    {% highlight powershell %}
     C:UsersjgardRepositorieschef-repo> Measure-Command {knife node list}
         
     Days              : 0  
@@ -59,7 +59,8 @@ After creating the cache the `knife node list` command performance is greatly im
     TotalMinutes      : 0.0492427433333333  
     TotalSeconds      : 2.9545646  
     TotalMilliseconds : 2954.5646  
-    ```
+    {% endhighlight %}
+    
 There are some caveats:
 
   * If you install a new Knife gem or plugin you need to re-run `knife rehash`.
