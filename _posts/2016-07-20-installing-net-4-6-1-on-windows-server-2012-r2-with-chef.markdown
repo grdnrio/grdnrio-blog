@@ -14,16 +14,16 @@ One of the challenges we faced was automating the installation of .NET 4.6.1; a 
 
 Here's the [Windows package](https://docs.chef.io/resource_windows_package.html) resource we used to install .NET originally.
     
-    {% highlight ruby %}
-    package '.NET 4.6.1' do
-        source 'https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe'
-        installer_type :custom
-        action :install
-        returns [0, 3010]
-        options '/norestart /passive'
-        timeout 3000
-      end
-    {% endhighlight %}
+{% highlight ruby %}
+package '.NET 4.6.1' do
+    source 'https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe'
+    installer_type :custom
+    action :install
+    returns [0, 3010]
+    options '/norestart /passive'
+    timeout 3000
+  end
+{% endhighlight %}
 
 As you can see we needed to set the installer type to `:custom` because we were using a .exe package. In addition to this we passed some options to prevent an automatic reboot interrupting the Chef run, and to prevent user dialogues from interrupting the installation.
 
@@ -31,23 +31,23 @@ This worked, but running `chef-client` again would re-trigger the installation. 
 
 We decided to push the reboot out to the [reboot resource](https://docs.chef.io/resource_reboot.html) with a notification from the Windows package resource.
     
-    {% highlight ruby %}
-    reboot '.Net Install' do  
-      reason 'Need to reboot after .NET installation'
-      action :nothing
-    end
-    
-    if version_arr[6][:data] != 394_271  
-      package '.NET 4.6.1' do
-        source 'https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe'
-        installer_type :custom
-        action :install
-        returns [0, 3010]
-        options '/norestart /passive'
-        notifies :request_reboot, 'reboot[.Net Install]', :immediately
-        timeout 3000
-      end
-    {% endhighlight %}
+{% highlight ruby %}
+reboot '.Net Install' do  
+  reason 'Need to reboot after .NET installation'
+  action :nothing
+end
+
+if version_arr[6][:data] != 394_271  
+  package '.NET 4.6.1' do
+    source 'https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe'
+    installer_type :custom
+    action :install
+    returns [0, 3010]
+    options '/norestart /passive'
+    notifies :request_reboot, 'reboot[.Net Install]', :immediately
+    timeout 3000
+  end
+{% endhighlight %}
 
 We also changed the recipe order in `default.rb` to make .NET installation the last task; this fixed our reboot flag issue with IIS.
 
@@ -55,25 +55,25 @@ With this working we could now trigger a reboot from the successful installation
 
 We still had the problem of idempotency. Every time we converged the .NET installation kicked off, even if it was already installed at the correct version. To resolve this we added some logic. We settled on checking the registry for the [build release number](https://msdn.microsoft.com/en-us/library/hh925568(v=vs.110).aspx) (matching 4.6.1) to either skip or trigger the windows_package resource.
     
-    {% highlight ruby %}
-    reboot '.Net Install' do  
-      reason 'Need to reboot after .NET installation'
-      action :nothing
-    end
-    
-    version_arr = registry_get_values('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', :x86_64)
-    
-    if version_arr[6][:data] != 394_271  
-      package '.NET 4.6.1' do
-        source 'https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe'
-        installer_type :custom
-        action :install
-        returns [0, 3010]
-        options '/norestart /passive'
-        notifies :request_reboot, 'reboot[.Net Install]', :immediately
-        timeout 3000
-      end
-    end  
-    {% endhighlight %}
+{% highlight ruby %}
+reboot '.Net Install' do  
+  reason 'Need to reboot after .NET installation'
+  action :nothing
+end
+
+version_arr = registry_get_values('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', :x86_64)
+
+if version_arr[6][:data] != 394_271  
+  package '.NET 4.6.1' do
+    source 'https://download.microsoft.com/download/E/4/1/E4173890-A24A-4936-9FC9-AF930FE3FA40/NDP461-KB3102436-x86-x64-AllOS-ENU.exe'
+    installer_type :custom
+    action :install
+    returns [0, 3010]
+    options '/norestart /passive'
+    notifies :request_reboot, 'reboot[.Net Install]', :immediately
+    timeout 3000
+  end
+end  
+{% endhighlight %}
 
 Here's the complete, working code.
