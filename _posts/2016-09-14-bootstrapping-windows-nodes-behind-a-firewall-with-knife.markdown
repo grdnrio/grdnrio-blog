@@ -1,13 +1,13 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:16+00:00
 layout: post
-link: http://grdnr.io/bootstrapping-windows-nodes-behind-a-firewall-with-knife/
-slug: bootstrapping-windows-nodes-behind-a-firewall-with-knife
 title: Bootstrapping Windows nodes behind a firewall with Knife
-wordpress_id: 63
+description: Using proxy settings to bootstrap firewalled nodes
+date: 2016-09-14
+tags: [chef, windows]
+comments: true
+share: true
 ---
+
 
 Using knife to bootstrap a node to be managed with Chef is a fundamental part of the Chef workflow, especially for dev and test purposes. When you bootstrap a node you are preparing the node to communicate with the Chef Server so it can download the cookbooks and recipes you have defined in its run-list, and eventually match the state you have defined in your Chef code.
 

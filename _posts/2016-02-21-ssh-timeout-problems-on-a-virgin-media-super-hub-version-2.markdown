@@ -1,12 +1,10 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:13+00:00
 layout: post
-link: http://grdnr.io/ssh-timeout-problems-on-a-virgin-media-super-hub-version-2/
-slug: ssh-timeout-problems-on-a-virgin-media-super-hub-version-2
 title: SSH Timeout Problems on a Virgin Media Super Hub version 2
-wordpress_id: 56
+date: 2016-02-21
+tags: [linux, ssh]
+comments: true
+share: true
 ---
 
 A commonly reported problem with the Virgin Media SuperHub is that an SSH connection will timeout. This is apparently due to the device having a very small amount of RAM leading to connection details being dropped.

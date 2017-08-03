@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:14+00:00
 layout: post
-link: http://grdnr.io/wordpress-htaccess-rules-for-nginx/
-slug: wordpress-htaccess-rules-for-nginx
 title: WordPress .htaccess rules for Nginx
-wordpress_id: 58
+description: How to make WordPress permalinks work properly with Nginx web server
+date: 2016-05-03
+tags: [linux, wordpress]
+comments: true
+share: true
 ---
 
 This guide shows you the equivalent .htaccess rewrite rules to get WordPress working properly with permalinks on the Nginx web server.

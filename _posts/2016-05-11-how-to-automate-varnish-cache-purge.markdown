@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:14+00:00
 layout: post
-link: http://grdnr.io/how-to-automate-varnish-cache-purge/
-slug: how-to-automate-varnish-cache-purge
-title: How to automate Varnish cache purge
-wordpress_id: 57
+title: Automate Varnish cache purges
+description: A useful technique for automating content publishing
+date: 2016-05-11
+tags: [linux]
+comments: true
+share: true
 ---
 
 This guide shows you how to use the varnishadm command in your system crontab to automate Varnish cache purging.

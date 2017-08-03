@@ -1,12 +1,10 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:15+00:00
 layout: post
-link: http://grdnr.io/view-speaker-notes-whilst-presenting-over-a-screen-share-on-osx/
-slug: view-speaker-notes-whilst-presenting-over-a-screen-share-on-osx
 title: View speaker notes whilst presenting over a screen share on OSX
-wordpress_id: 61
+date: 2016-07-01
+tags: [osx, mac]
+comments: true
+share: true
 ---
 
 I deliver many presentations over various teleconferencing software from my Mac Book Pro. If you like to use speaker notes in presenter view in Powerpoint then this poses a problem. You have a single screen so when sharing it how can you also view notes?

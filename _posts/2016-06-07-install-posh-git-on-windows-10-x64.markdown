@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:15+00:00
 layout: post
-link: http://grdnr.io/install-posh-git-on-windows-10-x64/
-slug: install-posh-git-on-windows-10-x64
 title: Install Posh Git on Windows 10 (x64)
-wordpress_id: 60
+description: How to install the really helpful Poshgit CLI add-on
+date: 2016-06-07
+tags: [windows, git]
+comments: true
+share: true
 ---
 
 Posh Git is a really helpful open-source project that includes a number of scripts offering Git and Powershell integration. When installed it allows tab auto completion for common Git operations along with showing the current branch and state of files.

@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:16+00:00
 layout: post
-link: http://grdnr.io/installing-net-4-6-1-on-windows-server-2012-r2-with-chef/
-slug: installing-net-4-6-1-on-windows-server-2012-r2-with-chef
 title: Installing .NET 4.6.1 on Windows Server 2012 R2 with Chef
-wordpress_id: 62
+description: How to manage you .NET version on Windows Server with Chef
+date: 2016-07-20
+tags: [chef, windows]
+comments: true
+share: true
 ---
 
 Recently I was lucky enough to take part in a 'hackathon' with Chef, Microsoft and a partner company based in Norway. It was a great week working with some amazing people!

@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:16+00:00
 layout: post
-link: http://grdnr.io/slow-knife-speed-up-with-knife-rehash/
-slug: slow-knife-speed-up-with-knife-rehash
 title: Slow Knife? Speed up with Knife rehash
-wordpress_id: 64
+description: Speed up the performance of the knife CLI on Windows using the rehash command
+date: 2016-10-07
+tags: [chef, windows]
+comments: true
+share: true
 ---
 
 The Chef DK includes a tool called Knife. This is primarily used for interaction with remote resources in Chef, such as the Chef Server and Chef managed nodes, but can be used for managing other remote systems too. Here's the description from the Chef Docs.
