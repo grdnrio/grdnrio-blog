@@ -3,7 +3,7 @@ layout: post
 title: InSpec and Chef - compliance as code
 description: InSpec and Chef examples from the Chef Community Summit 2016 talk
 date: 2016-10-22
-tage: [chef, inspec, community]
+tags: [chef, inspec, community]
 comments: true
 share: true
 ---

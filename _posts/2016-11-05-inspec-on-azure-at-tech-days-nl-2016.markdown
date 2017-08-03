@@ -3,7 +3,7 @@ layout: post
 title: InSpec on Azure at Tech Days NL 2016
 description: Summary of my talk from Tech Days Amsterdam 2016
 date: 2016-11-05
-tage: [chef, inspec, microsoft, talks]
+tags: [chef, inspec, microsoft, talks]
 comments: true
 share: true
 ---
