@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Using Travis to verify a Cloud Formation Template"
+description: "Demonstrates cloud formation template validation using the Travis CI service in GitHub."
 date:   2017-08-03 10:14:57 +0100
 tags: [travis, cloud, cloud formation, aws]
 comments: true
