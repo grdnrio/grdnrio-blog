@@ -32,7 +32,7 @@ Of course we’re using the varnishadm command. Next we define the host, look do
 
 Look for an unrecognised TCP command.
 
-Active Internet connections (only servers) **tcp 0 0 localhost:6082 _:_ LISTEN**
+`Active Internet connections (only servers) **tcp 0 0 localhost:6082 _:_ LISTEN**`
 
 Next we have the path to the secret authentication file.  
     

@@ -10,47 +10,18 @@ share: true
 
 This guide shows you the equivalent .htaccess rewrite rules to get WordPress working properly with permalinks on the Nginx web server.
 
-
-
-
 There is no direct equivalent for .htaccess in Nginx, so you cannot copy and past the .htaccess rules that WordPress suggests when you change your permalink settings in the dashboard. Instead you need to add the following rules to you site local configuration file.
 
-
-
-
-
 You could put these rules in the global nginx.conf file, generally found at…  
-
-
-
-
     
-    <code class="language-bash">/etc/nginx/nginx.conf
-    </code>
-
-
-
-
+    `/etc/nginx/nginx.conf`
 
 …but it is much better practice to have a single configuration file with local overrides for each site you are hosting on your Nginx server. Not only does this lead to granular management on a site by site basis, but it also avoids issues that may occur with multiple PHP apps (Drupal, Joomla! etc) each requiring slightly different rewrite rules.
 
-
-
-
-
 First of all either create or edit the configuration file for your site.
-
-
-
-
     
-    <code class="language-bash">vim /etc/nginx/sites-available/*website-name*  
-    </code>
-
-
-
-
-
+    `vim /etc/nginx/sites-available/*website-name*`
+    
 The standard configuration file looks something like this. This is the file used for **sudoguides.com**  
 
 
