@@ -1,12 +1,10 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:20:56+00:00
 layout: post
-link: http://grdnr.io/new-momentus-xt-hard-drive/
-slug: new-momentus-xt-hard-drive
 title: New Momentus XT Hard Drive
-wordpress_id: 4
+date: 2012-04-07
+tags: [linux]
+comments: true
+share: true
 ---
 
 My new Seagate Momentus XT hard drive turned up today! I bought it to breath new life into my old Toshiba laptop, and so far the signs are good. The Momentus XT is a standard 320GB 7,200 rpm disk, but it has an additional 4GB cache that remembers the files you use the most. The idea is that commonly used files are accessed on the flash memory, massively improving performance over the spindle element of the disk.

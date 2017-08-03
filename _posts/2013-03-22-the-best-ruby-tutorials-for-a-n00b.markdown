@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:03+00:00
 layout: post
-link: http://grdnr.io/the-best-ruby-tutorials-for-a-n00b/
-slug: the-best-ruby-tutorials-for-a-n00b
 title: The Best Ruby Tutorials (for a n00b)
-wordpress_id: 27
+description: My favourite Ruby tutorial sites
+date: 2013-03-22
+tags: [ruby]
+comments: true
+share: true
 ---
 
 Ruby as a programming language has always interested me, partly because it is such a high level language! It’s also interesting that everything is an object in Ruby essentially scrapping that jump from scripting to OO programming, which I never made.

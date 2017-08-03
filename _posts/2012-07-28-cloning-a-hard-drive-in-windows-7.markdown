@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:20:59+00:00
 layout: post
-link: http://grdnr.io/cloning-a-hard-drive-in-windows-7/
-slug: cloning-a-hard-drive-in-windows-7
 title: Cloning a hard drive in Windows 7
-wordpress_id: 15
+description: What's the easiest way to move to a new device or create a complete disk backup?
+date: 2012-07-28
+tags: [windows]
+comments: true
+share: true
 ---
 
 Cloning a hard drive is an especially useful thing to do if you wish to replace your existing hard drive. I recently did this and upgraded from my 7.2K 1TB Western Digital drive to a [120GB OCZ Agility 3 SSD](http://www.ebuyer.com/268244-ocz-120gb-agility-3-ssd-agt3-25sat3-120g-agt3-25sat3-120g) (it was absolutely worth it by the way!).

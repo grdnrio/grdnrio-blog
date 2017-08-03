@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:08+00:00
 layout: post
-link: http://grdnr.io/comments-on-cloud-pro-databases-in-the-cloud/
-slug: comments-on-cloud-pro-databases-in-the-cloud
 title: Comments on Cloud Pro - Databases in the cloud
-wordpress_id: 41
+description: Challenges of running databases in cloud services
+date: 2014-02-25
+tags: [cloud, iaas]
+comments: true
+share: true
 ---
 
 I made some comments about the challenges that arise when hosting databases, in particular production databases, in a cloud environment. It was interesting to consider where the pain points would be with PaaS and IaaS, and the benefits and draw backs of each option.

@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:08+00:00
 layout: post
-link: http://grdnr.io/comments-on-cloud-pro-keeping-iaas-costs-in-check/
-slug: comments-on-cloud-pro-keeping-iaas-costs-in-check
 title: Comments on Cloud Pro - Keeping IaaS costs in check
-wordpress_id: 40
+description: Challenges of controlling costs in self service infrastructure environments
+date: 2014-02-13
+tags: [cloud, iaas]
+comments: true
+share: true
 ---
 
 Some points I made about the importance of good code hosted on the cloud were published on Cloud Pro.

@@ -1,12 +1,9 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:13+00:00
 layout: post
-link: http://grdnr.io/an-announcement/
-slug: an-announcement
 title: An announcement!
-wordpress_id: 55
+date: 2015-04-04
+comments: true
+share: true
 ---
 
 A couple of months ago I got back to thinking about where I’d like to be, not only career wise, but personally in a few years time. It’s incredible how my vision for the future has matured and developed as life has changed! I came to the conclusion that it was time for a change, with my second child now 8 months old and family life pretty settled, more specifically a career change.

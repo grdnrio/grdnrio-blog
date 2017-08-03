@@ -1,12 +1,10 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:20:58+00:00
 layout: post
-link: http://grdnr.io/installing-vmware-tools-in-a-centos-scientific-linux-red-hat-guest/
-slug: installing-vmware-tools-in-a-centos-scientific-linux-red-hat-guest
 title: Installing VMware Tools in a Centos / Scientific Linux / Red Hat guest
-wordpress_id: 11
+date: 2012-05-27
+tags: [linux]
+comments: true
+share: true
 ---
 
 Installing VMware tools in a rpm based guest can sometimes be tricky. Here is a quick and dirty guide to help you install VMware tools and get the most out of your Linux guest.

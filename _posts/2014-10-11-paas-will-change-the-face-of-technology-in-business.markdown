@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:11+00:00
 layout: post
-link: http://grdnr.io/paas-will-change-the-face-of-technology-in-business/
-slug: paas-will-change-the-face-of-technology-in-business
 title: PaaS will change the face of technology in business
-wordpress_id: 49
+description: How will emerging platform services change the way that businesses operate their IT?
+date: 2014-10-11
+tags: [cloud, paas]
+comments: true
+share: true
 ---
 
 Platform as a Service is the least defined and smallest (annual spend) layer in the “* as a Service stack” despite being a growing market, but this is changing. Venturebeat explain the cloud layers well if you need a refresher – [http://venturebeat.com/2011/11/14/cloud-iaas-paas-saas/](http://venturebeat.com/2011/11/14/cloud-iaas-paas-saas/).

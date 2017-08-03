@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:01+00:00
 layout: post
-link: http://grdnr.io/product-development-process/
-slug: product-development-process
 title: Product Development Process
-wordpress_id: 20
+description: What processes do I adopt in product development?
+date: 2013-02-05
+tags: [product]
+comments: true
+share: true
 ---
 
 Product Development is a difficult discipline to define. I think that the role differs very slightly in every type of business. It is often confused with project management, however I see them as very different disciplines.

@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:20:58+00:00
 layout: post
-link: http://grdnr.io/force-removing-icons-from-launchpad/
-slug: force-removing-icons-from-launchpad
 title: Force removing icons from Launchpad
-wordpress_id: 12
+description: How to get rid of those annoying app icons that get stuck in your app dock
+date: 2012-06-14
+tags: [apple]
+comments: true
+share: true
 ---
 
 The standard method for removing app icons from the Lion Launchpad is to hold the left mouse button over the app icon, wait for the cross to appear in the corner of the app icon, and then click it!

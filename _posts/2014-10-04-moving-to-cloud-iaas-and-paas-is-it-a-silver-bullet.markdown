@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:11+00:00
 layout: post
-link: http://grdnr.io/moving-to-cloud-iaas-and-paas-is-it-a-silver-bullet/
-slug: moving-to-cloud-iaas-and-paas-is-it-a-silver-bullet
 title: Moving to cloud IaaS and PaaS - is it a silver bullet?
-wordpress_id: 50
+description: Does a cloud migration really solve all of your IT problems?
+date: 2014-10-04
+tags: [cloud]
+comments: true
+share: true
 ---
 
 I was recently at a networking event where I got chatting to a founder of an Internet of Things consultancy company. We had very similar views about the confusion around cloud services – at the moment IaaS is the default choice (it doesn’t even have to be explained), but is this the best option?

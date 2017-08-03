@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:20:58+00:00
 layout: post
-link: http://grdnr.io/coding-app-on-the-ipad/
-slug: coding-app-on-the-ipad
 title: Coding app on the iPad
-wordpress_id: 13
+description: Take a look at the best options I've found for dev on a tablet
+date: 2012-07-09
+tags: [apple]
+comments: true
+share: true
 ---
 
 Like many other I have just purchased an iPad 3, and yes the retina display is very beautiful. Having never owned an iOS device before I have spent the majority of the last two weeks spending a fortune on the App Store. Whilst populating my iPad with useless apps, I too a look at the availability of apps for writing code, preferably with an option for SFTP access to a remote server.

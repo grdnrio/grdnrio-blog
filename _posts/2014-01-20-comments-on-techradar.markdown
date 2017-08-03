@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:06+00:00
 layout: post
-link: http://grdnr.io/comments-on-techradar/
-slug: comments-on-techradar
-title: Comments on TechRadar
-wordpress_id: 36
+title: Comments on Tech Radar - Ecommerce hosting
+description: What should you consider when hosting an e-commerce website?
+date: 2014-01-20
+tags: [cloud]
+comments: true
+share: true
 ---
 
 I made some comments about selecting a hosting service for an e-commerce website. They were published on Tech Radar.

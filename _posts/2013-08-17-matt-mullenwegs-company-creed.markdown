@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:05+00:00
 layout: post
-link: http://grdnr.io/matt-mullenwegs-company-creed/
-slug: matt-mullenwegs-company-creed
 title: Matt Mullenweg's company creed
-wordpress_id: 31
+description: Automattic founder's company creed
+date: 2013-08-17
+tags: [government]
+comments: true
+share: true
 ---
 
 <blockquote> 

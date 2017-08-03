@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:03+00:00
 layout: post
-link: http://grdnr.io/iso-27001-mandatory-documents/
-slug: iso-27001-mandatory-documents
 title: ISO 27001 Mandatory Documents
-wordpress_id: 25
+description: A document check list for ISO 27001 accreditation
+date: 2013-05-12
+tags: [government, security]
+comments: true
+share: true
 ---
 
 I have compiled a list of mandatory documents by looking through the ISO/IEC 27001:2005 standard and by pulling together online resources I am currently relying on for my own work towards ISO 27001 accreditation in my current role at CatN.

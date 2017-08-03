@@ -1,12 +1,9 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:20:59+00:00
 layout: post
-link: http://grdnr.io/remotely-connecting-to-your-nas-with-filezilla-ftp-client/
-slug: remotely-connecting-to-your-nas-with-filezilla-ftp-client
 title: Remotely connecting to your NAS with FileZilla FTP client
-wordpress_id: 14
+date: 2012-09-19
+comments: true
+share: true
 ---
 
 I have had a few questions posted on a previous post, “[Setting up port forwarding on a Virgin Media SuperHub with a Zyxel NSA310 NAS](http://joegardiner.co.uk/external-ftp-nas-with-the-zyxel-nsa310-media-storage-and-a-super-hub/)” that ask about how to connect to the NAS remotely after setting up port forwarding. This post is a quick guide for using the [FileZilla](http://filezilla-project.org/) FTP CLIENT to do this.

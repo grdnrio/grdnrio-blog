@@ -1,12 +1,11 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:21:12+00:00
 layout: post
-link: http://grdnr.io/cloud-channel-tv/
-slug: cloud-channel-tv
 title: Cloud Channel TV
-wordpress_id: 52
+description: Videos from my series of Cloud Channel TV interviews
+date: 2015-02-28
+tags: [cloud, talks]
+comments: true
+share: true
 ---
 
 **In conversation with Cloud-Channel.tv**

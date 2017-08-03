@@ -2,7 +2,7 @@
 layout: post
 title: You might also like
 description: The impact of suggested content on site CTR performance
-date: 2016-10-07
+date: 2013-08-02
 tags: [seo, content, marketing]
 comments: true
 share: true

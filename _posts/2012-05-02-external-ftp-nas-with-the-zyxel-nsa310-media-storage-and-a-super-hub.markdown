@@ -1,12 +1,10 @@
 ---
-author: joe@grdnr.io
-comments: true
-date: 2016-10-07 18:20:57+00:00
 layout: post
-link: http://grdnr.io/external-ftp-nas-with-the-zyxel-nsa310-media-storage-and-a-super-hub/
-slug: external-ftp-nas-with-the-zyxel-nsa310-media-storage-and-a-super-hub
 title: External FTP NAS with the ZyXEL NSA310 Media Storage and a Super Hub
-wordpress_id: 8
+date: 2012-05-02
+tags: [linux]
+comments: true
+share: true
 ---
 
 I have a lot of films / music / software / games stored in various places and on various devices in my home. Keeping all this data organised is an absolute nightmare, and with a recent string of disk failures, I’ve also lost quite a lot of it. Following the recent death of an external [USB HD](http://www.amazon.co.uk/s?url=search-alias%3Daps&field-keywords=external+usb+hard+drive&x=0&y=0&_encoding=UTF8&tag=shilon-21&linkCode=ur2&camp=1634&creative=6738) I was in the market for a newer model. Looking around it made sense to invest a little more in a NAS to centralise storage on my home network and offer the redundancy of RAID 1 (across two disks, the 4 bay NASs are a tad outside my budget!).
