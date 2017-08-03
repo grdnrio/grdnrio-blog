@@ -7,7 +7,7 @@ tags: [chef, inspec, community]
 comments: true
 share: true
 ---
-
+![Community Summit presentation](http://images.grdnr.io/2017/inspec-community-talk.jpg)
 
 InSpec is an opensource language that can be used to assess the state of systems. It can form integration tests, but more importantly, with additional meta information, can create so called compliance profiles. These represent either business requirements or industry standards such as ISO 27001 and CIS.
 
