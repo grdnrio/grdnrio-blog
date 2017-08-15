@@ -10,7 +10,7 @@ share: true
 
 Docker makes running containers incredibly simple, a big reason for its popularity. I can quickly and easily run an Nginx container on my workstation, whether Mac, Windows or Linux based.
 
-docker container run --publish 80:80 --detach --name nginx nginx
+`docker container run --publish 80:80 --detach --name nginx nginx`
 
 And as if my magic...
 
