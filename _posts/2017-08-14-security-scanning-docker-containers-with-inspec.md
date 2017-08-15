@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scanning Docker containers with InSpec"
+title:  "Security scanning Docker containers with InSpec"
 description: "Using InSpec to scan and verify the state of a Docker container"
 date:   2017-08-14 13:07:11 +0100
 tags: [inspec, security, docker]
