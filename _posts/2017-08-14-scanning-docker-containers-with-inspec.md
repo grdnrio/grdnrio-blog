@@ -92,7 +92,7 @@ Receiving objects: 100% (206/206), 39.44 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (100/100), done.
 {% endhighlight %}
 
-Using the InSpec CLI I can now run the profile against the Docker container passing in the path to the Linux baseline I just cloned and setting the Docker container as a target.
+Using the InSpec CLI I can now run the profile against the Docker container passing in the path to the Linux baseline I just cloned and setting the Docker container ID as a target.
 
 `inspec exec linux-baseline -t docker://6242a0d510c1`
 
