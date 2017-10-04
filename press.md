@@ -21,10 +21,13 @@ Press mentions and contributions:
 * [How will the CloudStore impact government IT?](http://www.computerweekly.com/news/2240118009/How-will-the-CloudStore-impact-the-government-IT-market)
 * [CloudStore 2 launched ahead of supplier accreditation](http://www.computerweekly.com/news/2240150532/CloudStore-2-launched-ahead-of-supplier-accreditation)
 
+### 2013
+
+* [How to choose the right server for your e-commerce site](http://www.techradar.com/news/computing/servers/how-to-choose-the-right-server-for-your-e-commerce-site-1176935)
+
 ### 2014
 
 * [Is hybrid cloud the future?](http://www.techradar.com/news/internet/cloud-services/is-hybrid-cloud-the-future-1208758)
-* [How to choose the right server for your e-commerce site](http://www.techradar.com/news/computing/servers/how-to-choose-the-right-server-for-your-e-commerce-site-1176935)
 
 ### 2016
 
