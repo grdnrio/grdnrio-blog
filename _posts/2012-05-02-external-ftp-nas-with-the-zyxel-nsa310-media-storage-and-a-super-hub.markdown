@@ -13,7 +13,7 @@ The device I selected is the [ZyXEL NSA310](http://www.amazon.co.uk/gp/product/B
 
 The NSA310 has a gigabit port in the back so my initial heavy data transfer went quite quickly at around 30 (peaking at 40) Mbps. I then setup the FTP server with a few users to allow external access. This was all completed through the web admin panel (when logged in as the admin user)…
 
-[![](http://images.grdnr.io/2011/11/ftp-admin.png)](http://images.grdnr.io/2011/11/ftp-admin.png)
+[![](https://images.grdnr.io/2011/11/ftp-admin.png)](https://images.grdnr.io/2011/11/ftp-admin.png)
 
 The only complication was to allow external network access to the FTP server was setting up port forwarding on my rubbish Virgin Media Super Hub. Setting up forwarding rules was actually very simple, but that doesn’t stop the Super Hub from being rubbish.
 
@@ -22,7 +22,7 @@ The only complication was to allow external network access to the FTP server was
 3. Under the advanced title in the sidebar, click on the Port Forwarding option. This will load the control panel for forwarding.  
 4. Now you just need to fill out the fields to create a rule…   
 
-![](http://images.grdnr.io/2011/11/forwarding-table.png)
+![](https://images.grdnr.io/2011/11/forwarding-table.png)
 
 5. **Name:** You can call your rule anything you like. I called it NAS FTP.  
 6. **Start Port -> End Port:** Enter 20 for the start port and 21 for the end port. These are the two ports FTP most commonly uses.  
@@ -30,7 +30,7 @@ The only complication was to allow external network access to the FTP server was
 8. **Local IP Address:** This is the IP of NAS on your network, in my case 192.168.0.100.  
 9. Click Add, and then log out and you’re finished.
 
-![](http://images.grdnr.io/2011/11/forwarding-table-complete.png)
+![](https://images.grdnr.io/2011/11/forwarding-table-complete.png)
 
 Now you can FTP with the FTP user or admin user you created at your ISP IP and the FTP traffic will automatically be forwarded to your NAS by your router.
 
