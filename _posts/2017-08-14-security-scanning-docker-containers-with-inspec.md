@@ -14,7 +14,7 @@ Docker makes running containers incredibly simple, a big reason for its populari
 
 And as if my magic...
 
-![Nginx local host](http://images.grdnr.io/2017/docker-nginx.gif)
+![Nginx local host](https://images.grdnr.io/2017/docker-nginx.gif)
 
 The certified images from Docker are great, and if you use Docker Cloud you can push the images through a pipeline that executes security / vulnerability scanning on the image. However, there are plenty of images in the registry from community contributors - how can you verify them? What sit he image contains software that needs to be patched?
 
