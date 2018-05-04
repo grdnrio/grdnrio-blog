@@ -22,7 +22,7 @@ When it comes back open up My Computer to see if the new drive is detected. If i
 
 Your hard drives, including the new one, will be listed when the program opens up. Left click on the drive you wish to clone, then click on the **Clone this disk** button underneath the drive. This will start up the disk cloning wizard.
 
-[![](https://images.grdnr.io/2012/04/Wizard.png)](http://images.grdnr.io/2012/04/Wizard.png)
+[![](https://images.grdnr.io/2012/04/Wizard.png)](https://images.grdnr.io/2012/04/Wizard.png)
 
 Now select a destination drive to clone to, this will be your new drive. Choose your new drive from the list that appears after clicking the ‘Select a disk to clone to’ link. When the drive is selected click Next. This will begin the cloning process. Follow the rest of the options through to complete the disk cloning.
 
@@ -32,17 +32,17 @@ You can now open up My Computer and view the contents of the drive. It should be
 
 Go to Start button -> All Programs -> Administrative Tools -> Computer Management. Then Storage, and Disk Management.
 
-[![](http://images.grdnr.io/2012/04/disk-clone-1.png)](http://images.grdnr.io/2012/04/disk-clone-1.png)
+[![](https://images.grdnr.io/2012/04/disk-clone-1.png)](https://images.grdnr.io/2012/04/disk-clone-1.png)
 
 Right click on the blue volume block of the disk you cloned from (the source) and from the options menu select **Change drive letter and paths**.
 
 Now click on the **Change** button.
 
-[![](http://images.grdnr.io/2012/04/Change-letter1.png)](http://images.grdnr.io/2012/04/Change-letter1.png)
+[![](https://images.grdnr.io/2012/04/Change-letter1.png)](https://images.grdnr.io/2012/04/Change-letter1.png)
 
 Then choose the new drive letter. I went with X for clarity when doing this.
 
-[![](http://images.grdnr.io/2012/04/Change-letter2.png)](http://images.grdnr.io/2012/04/Change-letter2.png)
+[![](https://images.grdnr.io/2012/04/Change-letter2.png)](https://images.grdnr.io/2012/04/Change-letter2.png)
 
 Now repeat the process for your newly created clone drive (destination drive) but choose the original drive letter of the destination drive, probably C or D.
 
