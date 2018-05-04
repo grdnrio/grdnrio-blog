@@ -10,7 +10,7 @@ share: true
 
 Posh Git is a really helpful open-source project that includes a number of scripts offering Git and Powershell integration. When installed it allows tab auto completion for common Git operations along with showing the current branch and state of files.
 
-![poshgit_branch](http://images.grdnr.io/2016/Posh+Git+PS.PNG)
+![poshgit_branch](https://images.grdnr.io/2016/Posh+Git+PS.PNG)
 
 As you can see above, showing the current branch is neat.
 
@@ -23,7 +23,7 @@ Once the package has downloaded, click through the installation options. I went 
 
 Now you should be able to type Git into a Powershell terminal and see that options are spat back out, suggesting that Git has been installed successfully.
 
-![Git Powershell output](http://images.grdnr.io/2016/git-output.PNG)
+![Git Powershell output](https://images.grdnr.io/2016/git-output.PNG)
 
 Now we need to edit our security settings before installing PoshGit. Make sure that you're running your Powershell environment as Administrator. If not you can right click on a Powershell shortcut and choose this option.
 
