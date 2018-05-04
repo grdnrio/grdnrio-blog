@@ -7,7 +7,7 @@ tags: [chef, windows, security]
 comments: true
 share: true
 ---
-![Chef Windows](http://images.grdnr.io/2017/chef-windows.png)
+![Chef Windows](https://images.grdnr.io/2017/chef-windows.png)
 
 Enforcing security policy is tough, especially in a Windows environment where you are NOT using Group Policy. Think about usage patterns for Windows server on cloud. GPO certainly doesn’t always apply. In fact, Microsoft actually recommend GPO for Desktop / Workstation use and other solutions, such as Chef and DSC for servers.
 
