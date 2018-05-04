@@ -15,7 +15,7 @@ FileZilla is cross-platform compatible so you can follow this guide using the Fi
 * Now you need to find out what your IP address is as assigned to you by your ISP. You can do this by going to Google and searching “My IP”. At the top of the results your IP address will be shown! Take a note of this, I would copy and paste it into a text file for later use.
 * Launch the FileZilla client you just installed. For now all you need to worry about is the bar at the top of the window that has the **Host**, Username, and **Password** fields. We are going to fill these out now to connect to your NAS.   
 
-[![](http://images.grdnr.io/2012/04/Screen-Shot-2012-04-07-at-10.51.16.png)](http://images.grdnr.io/2012/04/Screen-Shot-2012-04-07-at-10.51.16.png)
+[![](https://images.grdnr.io/2012/04/Screen-Shot-2012-04-07-at-10.51.16.png)](https://images.grdnr.io/2012/04/Screen-Shot-2012-04-07-at-10.51.16.png)
 
 1. In the **Host** field enter the IP address you just got from Google.
   * In the **Username** field enter either the admin username, or the user you created in the web interface or setup utility for your NAS.
