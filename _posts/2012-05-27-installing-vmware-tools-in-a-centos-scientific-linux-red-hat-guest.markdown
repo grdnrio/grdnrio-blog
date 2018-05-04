@@ -20,7 +20,7 @@ Boot up your Linux VM and wait until you get to a stable desktop, if you are usi
 
 When the OS is booted, have a look at the top of your VMware app window. There should be a toolbar, you want the tab called Virtual Machine. In this menu select ‘**Install VMware Tools**‘. When you click this it will mount an ISO with the VMware tools package on it.
 
-[![VMware menu](http://images.grdnr.io/2012/03/Screen-Shot-2012-03-21-at-20.05.05.png)](http://images.grdnr.io/2012/03/Screen-Shot-2012-03-21-at-20.05.05.png)
+[![VMware menu](https://images.grdnr.io/2012/03/Screen-Shot-2012-03-21-at-20.05.05.png)](https://images.grdnr.io/2012/03/Screen-Shot-2012-03-21-at-20.05.05.png)
 
 First switch to root.
 
@@ -54,7 +54,7 @@ Run the installer.
 
 You will now be asked a lot of questions by the installer. Generally you can go with the default settings by pressing _Enter_ and everything will install correctly. The advanced settings of the installer are beyond the scope of this guide!
 
-[![VMware Tools automated installer](http://images.grdnr.io/2012/03/Screen-Shot-2012-03-22-at-18.27.29.png)](http://images.grdnr.io/2012/03/Screen-Shot-2012-03-22-at-18.27.29.png)
+[![VMware Tools automated installer](https://images.grdnr.io/2012/03/Screen-Shot-2012-03-22-at-18.27.29.png)](https://images.grdnr.io/2012/03/Screen-Shot-2012-03-22-at-18.27.29.png)
 
 When the installer completes reboot your VM, either using the VMware Player / Fusion / Workstation settings, or with the following command.
 
