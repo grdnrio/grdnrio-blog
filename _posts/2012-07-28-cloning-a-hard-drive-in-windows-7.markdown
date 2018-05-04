@@ -22,7 +22,7 @@ When it comes back open up My Computer to see if the new drive is detected. If i
 
 Your hard drives, including the new one, will be listed when the program opens up. Left click on the drive you wish to clone, then click on the **Clone this disk** button underneath the drive. This will start up the disk cloning wizard.
 
-[![](http://images.grdnr.io/2012/04/Wizard.png)](http://images.grdnr.io/2012/04/Wizard.png)
+[![](https://images.grdnr.io/2012/04/Wizard.png)](http://images.grdnr.io/2012/04/Wizard.png)
 
 Now select a destination drive to clone to, this will be your new drive. Choose your new drive from the list that appears after clicking the ‘Select a disk to clone to’ link. When the drive is selected click Next. This will begin the cloning process. Follow the rest of the options through to complete the disk cloning.
 
