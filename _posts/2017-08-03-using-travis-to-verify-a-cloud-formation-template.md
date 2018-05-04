@@ -7,7 +7,7 @@ tags: [travis, cloud, cloud formation, aws]
 comments: true
 share: true
 ---
-![Rusty machine](http://images.grdnr.io/2017/1_aB1oh7g5LayPo2xaoWnikA.jpg)
+![Rusty machine](https://images.grdnr.io/2017/1_aB1oh7g5LayPo2xaoWnikA.jpg)
 
 Deploying infrastructure in the cloud is fun. Deploying into AWS is even more fun. Clicking buttons is not fun. You should use a Cloud Formation template.
 
@@ -26,7 +26,7 @@ It’s a continuous integration tool that can automate the execution of verifica
 ## How does it work?
 After setting up your account you need to enable Travis as an extension for your CFT repo. This is handled through the Settings and then Services panels.
 
-![Travis service](http://images.grdnr.io/2017/travis-hooks.png)
+![Travis service](https://images.grdnr.io/2017/travis-hooks.png)
 
 Once enabled you need to add a Travis file to your repo. This file controls what Travis does when a certain trigger event occurs, such as a pushed branch or a new pull request.
 
