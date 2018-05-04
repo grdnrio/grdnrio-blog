@@ -19,7 +19,7 @@ I have found a real lack of resource online explaining at a high level the produ
 
 The following is the process that I go through as a product manager. I explain each of the steps in greater detail below.
 
-![](http://images.grdnr.io/2012/08/prod-dev.png )
+![](https://images.grdnr.io/2012/08/prod-dev.png )
 
 **EDIT:** This is a great article explaining the need for customer research at an early stage in the planning process: ‘[How user research can help prioritise product requirements](http://mindtheproduct.com/2012/08/how-user-research-can-help-prioritise-product-requirements/)‘.
 
