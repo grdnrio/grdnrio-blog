@@ -8,7 +8,7 @@ comments: true
 share: true
 ---
 
-![EU Flag](http://images.grdnr.io/2017/EU-flag.jpg)
+![EU Flag](https://images.grdnr.io/2017/EU-flag.jpg)
 
 Have you heard of GDPR? It stands for the [General Data Protection Regulation](http://www.eugdpr.org/). It's an update to the original data protection regulations from 1995 and reflects the new ways that we store and process personal data in an increasingly digital society. It impacts any business that stores and processes the personal data of EU citizens (whether EU based or not), and introduces a number of requirements relating to access to data, breach notifications, and the right to be forgotten.
 
