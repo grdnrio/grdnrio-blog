@@ -12,7 +12,7 @@ Ever seen BuzzFeed? Of course you have, BuzzFeed is pretty much the reason for t
 
 Why is it so addictive though? Yes the content is funny (most of the time) and the list format makes you want to read more, but what I find myself clicking on again and again is the ‘More Buzz’ link block at the end of every post.
 
-[![More Buzz](http://images.grdnr.io/2013/04/more-buzz.png)](http://images.grdnr.io/2013/04/more-buzz.png)The BuzzFeed ‘More Buzz’ widget is fiendishly addictive. Go on then, one more post.
+[![More Buzz](https://images.grdnr.io/2013/04/more-buzz.png)](https://images.grdnr.io/2013/04/more-buzz.png)The BuzzFeed ‘More Buzz’ widget is fiendishly addictive. Go on then, one more post.
 
 This is nothing new, loads of websites use related posts widgets or links somewhere in their content. Why is this though? It’s pretty simple – if you make your money from a CPM or CPC ad model then it’s all about keeping that bounce rate low, and keeping the page per visit rate and visit duration high. This is the best way to get the most value out of each visitor. You’ve already got them to the site, that’s the hard bit, now get as many page views (and potentially ad clicks) as possible out of them.
 
@@ -24,11 +24,11 @@ Both websites are built on [WordPress](http://wordpress.org) so I decided to loo
 
 The best plugin I found was, unsurprisingly, called ‘[WordPress Related Posts](http://wordpress.org/extend/plugins/wordpress-23-related-posts-plugin/)‘. It’s dead simple and is sensitive to mobile devices helpfully. After installing it the widget appeared at the end of each blog post.
 
-[![Related posts on Shit Lonon](http://images.grdnr.io/2013/04/sl-related-posts.png)](http://images.grdnr.io/2013/04/sl-related-posts.png)The related posts plugin working well but looking poor without post titles.
+[![Related posts on Shit Lonon](https://images.grdnr.io/2013/04/sl-related-posts.png)](https://images.grdnr.io/2013/04/sl-related-posts.png)The related posts plugin working well but looking poor without post titles.
 
 Unfortunately we don’t use titles on Shit London (soon changing) only image captions so the plugin doesn’t look too good yet. I’ve set aside a lot of time over the next couple of weeks to go through all 600ish posts and add a title. Here you can see the same plugin on The Urbanaut looking much better, picking up the post titles.
 
-[![Related posts on The Urbanaut](http://images.grdnr.io/2013/04/tu-related-posts.png)](http://images.grdnr.io/2013/04/tu-related-posts.png)Related posts being generated dynamically from the same category. Looking goof with post titles being captured correctly.
+[![Related posts on The Urbanaut](https://images.grdnr.io/2013/04/tu-related-posts.png)](https://images.grdnr.io/2013/04/tu-related-posts.png)Related posts being generated dynamically from the same category. Looking goof with post titles being captured correctly.
 
 I’m much happier with this and hope to achieve the same with Shit London.
 
@@ -38,13 +38,13 @@ This is how the bounce rates look at the moment on both sites. This data is from
 
 #### The Urbanaut
 
-[![Visitor data from The Urbanaut](http://images.grdnr.io/2013/04/tu-data.png)](http://images.grdnr.io/2013/04/tu-data.png)   
+[![Visitor data from The Urbanaut](https://images.grdnr.io/2013/04/tu-data.png)](https://images.grdnr.io/2013/04/tu-data.png)   
 
  Not bad but not great. I could definitely try and improve the pages per visit and the bounce rate. The duration isn’t too bad considering this is mainly a photo website. It looks as though the content is getting read.
 
 #### Shit London
 
-[![Analytics from Shit London](http://images.grdnr.io/2013/04/sldata.png)](http://images.grdnr.io/2013/04/sldata.png)   
+[![Analytics from Shit London](https://images.grdnr.io/2013/04/sldata.png)](https://images.grdnr.io/2013/04/sldata.png)   
 
  I’m happy with these figures. The page per visit rate is impressive and the duration is _very_ good for a website of this type. I’m not resting on my laurels though, there is definitely room for improvement.
 
